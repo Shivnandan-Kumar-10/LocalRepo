@@ -223,4 +223,6 @@ git branch -- to check the branch
 git branch -M main -- to rename the branch
 git checkout <branch_name> -- to negivate
 git checkout -b <new branch name> -- to create a new branch
-git checkout -d <branch name> -- to delete the branch
+git branch -d <branch name> -- to delete the branch
+
+--you can't delete the branch on which currently you are.
