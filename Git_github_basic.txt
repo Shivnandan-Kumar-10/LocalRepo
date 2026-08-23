@@ -263,3 +263,7 @@ Case 2: commited change (for one commit)
 
     Use "git log" to check all the commit
 
+case 3: Commited change(for multiple commit back)
+    git reset <commit hash>
+    git reset --hard <commit hash>
+    
