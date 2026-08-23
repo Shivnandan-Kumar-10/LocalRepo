@@ -226,3 +226,35 @@ git checkout -b <new branch name> -- to create a new branch
 git branch -d <branch name> -- to delete the branch
 
 --you can't delete the branch on which currently you are.
+
+=====================
+Mearging code
+=====================
+way1
+git diff <branch name>  --to compare commit, branches, files and more.
+git merge <branch name>  --to merge two branches
+
+way 2
+Create a PR 
+
+Pull Request: It lets you tell other about changes you have pushed to a branch in a repo on github.
+
+
+=================
+Pull command
+=================
+Pull: To featch and download content from remote repo and immediately update the local repo to match that content.
+    git pull origin main
+
+=========================
+Resolving merge conflicts
+=========================
+An event that take place when git is unable to automatically resolve differences in the code between two commits.
+
+==========================
+Undoing changes
+==========================
+Case 1: Staged change
+    git reset <file name>
+    git reset 
+    
