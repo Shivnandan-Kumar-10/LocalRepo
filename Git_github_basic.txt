@@ -265,5 +265,11 @@ Case 2: commited change (for one commit)
 
 case 3: Commited change(for multiple commit back)
     git reset <commit hash>
-    git reset --hard <commit hash>
-    
+    git reset --hard <commit hash>  --To remove the change from git and vs code
+
+================
+FORK
+================
+A fork is a new repository that shares code and visiblity setting with orignal "upstream" repositry.
+
+We can say fork is a rough copy of any project
