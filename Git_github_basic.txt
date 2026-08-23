@@ -255,6 +255,11 @@ An event that take place when git is unable to automatically resolve differences
 Undoing changes
 ==========================
 Case 1: Staged change
-    git reset <file name>
-    git reset 
-    
+    git reset <file name>  -- To change in single file.
+    git reset   -- To change in multiple file.
+
+Case 2: commited change (for one commit)
+    git reset HEAD~1
+
+    Use "git log" to check all the commit
+
